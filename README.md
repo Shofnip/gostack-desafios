@@ -9,6 +9,13 @@
 
 ### Nível 01
 - [02 - Conceitos do Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-nodejs)
+- [03 - Conceitos do ReactJS](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-reactjs)
+- [04 - Conceitos do React Native](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-react-native)
+
+### Nível 02
+
+- [05 - Primeiro projeto com Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-primeiro-projeto-com-nodejs)
+- [06 - Database Upload](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-database-upload)
 
 ## :memo: Licença
 
