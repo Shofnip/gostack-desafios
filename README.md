@@ -8,7 +8,7 @@
 - **01 - Planejando meus estudos** - Este desafio não está no github.
 
 ### Nível 01
-- [02 - Conceitos do Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/desafio-conceitos-nodejs)
+- [02 - Conceitos do Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-nodejs)
 
 ## :memo: Licença
 
