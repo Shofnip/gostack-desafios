@@ -2,7 +2,7 @@
   Desafio 05: Fundamentos Node.js
 </h3>
 
-![header](/src/assets/gostack.png)
+![header](src/assets/gostack.png)
 
 <p align="center">
   <a href="#pencil2-experiência">Experiência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,7 +15,7 @@
 
 Um desafio que me fez aplicar todos os conceitos e princípios aprendidos no módulo e tive a oportunidade de colocar mais em prática o TypeScript. Uma coisa interessante que gostei nesse desafio foram as diversas formas que é possível de resolvê-lo. Este desafio é o que mais tive dificuldades de completar até agora, se estivesse sozinho nesse barco tenho dúvidas se conseguiria completar tão rápido, com certeza o que me trouxe mais aprendizado até agora.
 
-![example-gif](/src/assets/insomnia-example.png)
+![example-gif](src/assets/insomnia-example.png)
 
 ## :rocket: Sobre o desafio
 

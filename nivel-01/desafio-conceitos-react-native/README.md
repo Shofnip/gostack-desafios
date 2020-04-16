@@ -2,7 +2,7 @@
   Desafio 04: Conceitos do React Native
 </h3>
 
-![header](/src/assets/gostack.png)
+![header](src/assets/gostack.png)
 
 <p align="center">
   <a href="#pencil2-experiência">Experiência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,7 +16,7 @@
 O desafio desta vez foi aplicar os conceitos de React Native em prática, simulando uma aplicação onde usuários poderiam acessar um repositório podendo dar likes nos repositórios.
 Este com certeza foi um desafio que me fez pensar bastante em lógica e que além de me fazer absorver o conteúdo da GoStack também me mostrou novas formas de pensar.
 
-![example-gif](/src/assets/mobile-gif.gif)
+![example-gif](src/assets/mobile-gif.gif)
 
 ## :rocket: Sobre o desafio
 

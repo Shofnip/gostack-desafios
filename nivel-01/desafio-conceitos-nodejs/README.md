@@ -2,7 +2,7 @@
   Desafio 02: Conceitos do Node.js
 </h3>
 
-![header](https://github.com/Shofnip/gostack-desafio-conceitos-nodejs/blob/master/src/assets/gostack.png)
+![header](src/assets/gostack.png)
 
 <p align="center">
   <a href="#pencil2-experiência">Experiência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,7 +15,7 @@
 
 Foi um desafio bem interessante onde pude colocar em prática os aprendizados que obtive sobre os conceitos do Node.js e ainda me fez pensar um pouco em como resolver a questão do like que pra mim, é onde realmente estava o desafio. No geral foi um desafio simples, mas que serviu para reforçar todo o aprendizado desse primeiro módulo do Bootcamp GoStack sobre Conceitos do Node.js
 
-![experience-image](https://github.com/Shofnip/gostack-desafio-conceitos-nodejs/blob/master/src/assets/insomnia.png)
+![experience-image](src/assets/insomnia.png)
 
 ## :rocket: Sobre o desafio
 

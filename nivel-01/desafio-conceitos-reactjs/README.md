@@ -2,7 +2,7 @@
   Desafio 03: Conceitos do ReactJS
 </h3>
 
-![header](https://github.com/Shofnip/gostack-desafio-conceitos-reactjs/blob/master/src/assets/gostack.png)
+![header](src/assets/gostack.png)
 
 <p align="center">
   <a href="#pencil2-experiência">Experiência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,7 +15,7 @@
 
 Achei este desafio bem divertido, talvez por ter um contato mais visual com o resultado. Eu achei um desafio simples, mas essencial para fixar os conceitos do ReactJS na cabeça muito didático e se não prestar atenção, pode acabar caindo nas pegadinhas. 
 
-![example-gif](https://github.com/Shofnip/gostack-desafio-conceitos-reactjs/blob/master/src/assets/example-gif.gif)
+![example-gif](src/assets/example-gif.gif)
 
 ## :rocket: Sobre o desafio
 
