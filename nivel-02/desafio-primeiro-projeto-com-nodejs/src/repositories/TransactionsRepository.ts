@@ -12,11 +12,6 @@ interface Balance {
   total: number;
 }
 
-interface TransactionList {
-  transactions: Array<CreateTransactionDTO>;
-  balance: Balance;
-}
-
 class TransactionsRepository {
   private transactions: Transaction[];
 
@@ -24,49 +19,37 @@ class TransactionsRepository {
     this.transactions = [];
   }
 
-  public all(): TransactionList {
-    const balance = this.getBalance();
-    return { transactions: this.transactions, balance };
+  public all(): Transaction[] {
+    return this.transactions;
   }
 
   public getBalance(): Balance {
-    const { transactions } = this;
-    const initialBalance = {
+    const { income, outcome } = this.transactions.reduce((accumulator: Balance, transaction: Transaction) => {
+      switch (transaction.type) {
+        case 'income':
+          accumulator.income += transaction.value;
+          break;
+        case 'outcome':
+          accumulator.outcome += transaction.value;
+          break;
+        default:
+          break;
+      }
+
+      return accumulator;
+    }, {
       income: 0,
       outcome: 0,
       total: 0,
-    };
+    });
 
-    const balance = transactions.reduce((accumulator, transaction) => {
-      switch (transaction.type) {
-        case 'income':
-          return {
-            income: accumulator.income + transaction.value,
-            outcome: accumulator.outcome,
-            total: accumulator.total + transaction.value,
-          };
-        case 'outcome':
-          return {
-            income: accumulator.income,
-            outcome: accumulator.outcome + transaction.value,
-            total: accumulator.total - transaction.value,
-          };
-        default:
-          return accumulator;
-      }
-    }, initialBalance);
+    const total = income - outcome;
 
-    return balance;
+    return { income, outcome, total };
   }
 
   public create({ title, type, value }: CreateTransactionDTO): Transaction {
     const transaction = new Transaction({ title, type, value });
-
-    const balance = this.getBalance();
-
-    if (type === 'outcome' && value > balance.total) {
-      throw Error('Not enough balance for this outcome.');
-    }
 
     this.transactions.push(transaction);
 
