@@ -8,38 +8,36 @@ interface Balance {
   total: number;
 }
 
-interface TransactionList {
-  transactions: Transaction[];
-  balance: Balance;
-}
-
 @EntityRepository(Transaction)
 class TransactionsRepository extends Repository<Transaction> {
-  public async getBalance(): Promise<TransactionList> {
+  public async getBalance(): Promise<Balance> {
     const transactions = await this.find({ relations: ['category'] });
 
-    const initialBalance = {
-      income: 0,
-      outcome: 0,
-      total: 0,
-    };
+    const { income, outcome } = transactions.reduce(
+      (acc: Balance, transaction: Transaction) => {
+        switch (transaction.type) {
+          case 'income':
+            acc.income += transaction.value;
+            break;
+          case 'outcome':
+            acc.outcome += transaction.value;
+            break;
+          default:
+            break;
+        }
 
-    const balance = transactions.reduce((acc, transaction) => {
-      if (transaction.type === 'income') {
-        return {
-          income: acc.income + transaction.value,
-          outcome: acc.outcome,
-          total: acc.total + transaction.value,
-        };
-      }
-      return {
-        income: acc.income,
-        outcome: acc.outcome + transaction.value,
-        total: acc.total - transaction.value,
-      };
-    }, initialBalance);
+        return acc;
+      },
+      {
+        income: 0,
+        outcome: 0,
+        total: 0,
+      },
+    );
 
-    return { transactions, balance };
+    const total = income - outcome;
+
+    return { income, outcome, total };
   }
 }
 

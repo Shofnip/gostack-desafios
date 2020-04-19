@@ -12,8 +12,12 @@ import Category from './Category';
 
 @Entity('transactions')
 class Transaction {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn('uuid')
   id: string;
+
+  @ManyToOne(() => Category)
+  @JoinColumn({ name: 'category_id' })
+  category: Category;
 
   @Column()
   title: string;
@@ -21,12 +25,8 @@ class Transaction {
   @Column()
   type: 'income' | 'outcome';
 
-  @Column('int')
+  @Column('decimal')
   value: number;
-
-  @ManyToOne(() => Category)
-  @JoinColumn({ name: 'category_id' })
-  category: Category;
 
   @CreateDateColumn()
   created_at: Date;

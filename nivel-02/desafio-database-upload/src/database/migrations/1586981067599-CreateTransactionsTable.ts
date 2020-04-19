@@ -26,7 +26,9 @@ export default class CreateTransactionsTable1586981067599
           },
           {
             name: 'value',
-            type: 'int',
+            type: 'decimal',
+            precision: 10,
+            scale: 2,
             isNullable: false,
           },
           {
@@ -60,8 +62,8 @@ export default class CreateTransactionsTable1586981067599
         columnNames: ['category_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'categories',
-        onDelete: 'SET NULL',
         onUpdate: 'CASCADE',
+        onDelete: 'SET NULL',
       }),
     );
   }
