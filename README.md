@@ -17,6 +17,10 @@
 - [05 - Primeiro projeto com Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-primeiro-projeto-com-nodejs)
 - [06 - Database Upload](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-database-upload)
 
+### Nível 02
+
+- [07 - GoFinances Web](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-03/desafio-gofinances-web)
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
