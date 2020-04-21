@@ -17,7 +17,7 @@
 - [05 - Primeiro projeto com Node.js](nivel-02/desafio-primeiro-projeto-com-nodejs)
 - [06 - Database Upload](nivel-02/desafio-database-upload)
 
-### Nível 02
+### Nível 03
 
 - [07 - GoFinances Web](nivel-03/desafio-gofinances-web)
 
