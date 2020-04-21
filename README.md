@@ -8,18 +8,18 @@
 - **01 - Planejando meus estudos** - Este desafio não está no github.
 
 ### Nível 01
-- [02 - Conceitos do Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-nodejs)
-- [03 - Conceitos do ReactJS](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-reactjs)
-- [04 - Conceitos do React Native](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-01/desafio-conceitos-react-native)
+- [02 - Conceitos do Node.js](nivel-01/desafio-conceitos-nodejs)
+- [03 - Conceitos do ReactJS](nivel-01/desafio-conceitos-reactjs)
+- [04 - Conceitos do React Native](nivel-01/desafio-conceitos-react-native)
 
 ### Nível 02
 
-- [05 - Primeiro projeto com Node.js](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-primeiro-projeto-com-nodejs)
-- [06 - Database Upload](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-02/desafio-database-upload)
+- [05 - Primeiro projeto com Node.js](nivel-02/desafio-primeiro-projeto-com-nodejs)
+- [06 - Database Upload](nivel-02/desafio-database-upload)
 
 ### Nível 02
 
-- [07 - GoFinances Web](https://github.com/Shofnip/gostack-desafios/tree/master/nivel-03/desafio-gofinances-web)
+- [07 - GoFinances Web](nivel-03/desafio-gofinances-web)
 
 ## :memo: Licença
 
